@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    background: #F5F5F6;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.logo {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.menu,
+.calc-switcher {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    margin: 0 15px;
+}
+
+.menu-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #959BA4;
+}
+
+.menu-link.active {
+    color: #000;
+}
+
+.login {
+    display: inline-block;
+    background: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calc-box {
+    width: 660px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 38px;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.calc-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calc-side {
+    width: 270px;
+}
+
+.calc-title {
+    font-size: 14px;
+    color: #9F9F9F;
+    margin-bottom: 10px;
+}
+
+.calc-switcher {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.currency {
+    font-size: 14px;
+    color: #C6C6C6;
+    text-align: center;
+    width: 25%;
+    padding: 7px 0;
+    border: 1px solid #E5E5E5;
+    cursor: pointer;
+}
+
+.currency:first-child {
+    border-radius: 3px 0 0 3px;
+}
+
+.currency:last-child {
+    border-radius: 0 3px 3px 0;
+}
+
+.currency.active {
+    color: #fff;
+    background: #833AE0;
+    border-color: #833AE0;
+}
+
+.calc-input-box {
+    padding: 15px;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+}
+
+.calc-input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 38px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    padding-bottom: 20px;
+}
+
+.current-exchange-rate {
+    font-size: 14px;
+    color: #C6C6C6;
+    cursor: default;
+}

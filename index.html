@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <a href="#">
+            <img width="110" src="img/logo.jpg" alt="logo">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#" class="menu-link active">Банк</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Бизнес</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Инвестиции</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Страхование</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Мобайл</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Путешествия</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Развлечения</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="login">
+            <span>Войти</span>
+        </div>
+    </header>
+
+    <div id="calc-box">
+        <h1 class="title">Конвертер валют онлайн</h1>
+        <div class="calc-container">
+            <div class="calc-side">
+                <p class="calc-title">У меня есть</p>
+                <ul class="calc-switcher switcher-from">
+                    <li class="currency">RUB</li>
+                    <li class="currency">USD</li>
+                    <li class="currency">EUR</li>
+                    <li class="currency">GBP</li>
+                </ul>
+                <div class="calc-input-box">
+                    <input class="calc-input calc-from" type="text">
+                    <span class="current-exchange-rate rate-from"></span>
+                </div>
+            </div>
+            <div class="calc-side">
+                <p class="calc-title">Хочу приобрести</p>
+                <ul class="calc-switcher switcher-to">
+                    <li class="currency">RUB</li>
+                    <li class="currency">USD</li>
+                    <li class="currency">EUR</li>
+                    <li class="currency">GBP</li>
+                </ul>
+                <div class="calc-input-box">
+                    <input class="calc-input calc-to" type="text">
+                    <span class="current-exchange-rate rate-to"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
